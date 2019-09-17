@@ -15,6 +15,7 @@ import { HomeComponent } from './components/home/home.component';
 import { MatchesComponent } from './components/matches/matches.component';
 import { TournamentComponent } from './components/tournament/tournament.component';
 import { PositionsComponent } from './components/positions/positions.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PositionsComponent } from './components/positions/positions.component';
     HomeComponent,
     MatchesComponent,
     TournamentComponent,
-    PositionsComponent
+    PositionsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
