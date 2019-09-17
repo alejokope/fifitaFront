@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "equipo": {
+      "id": 1,
+      "nombre": "Lanus",
+      "imagen": "aa"
+    },
+    "partidosJugados": 0,
+    "partidosGanados": 0,
+    "partidosEmpatados": 0,
+    "partidosPerdidos": 0,
+    "diferenciaDeGoles": 0,
+    "puntos": 0
+  },
+  {
+    "id": 2,
+    "equipo": {
+      "id": 2,
+      "nombre": "Independiente",
+      "imagen": "aa"
+    },
+    "partidosJugados": 0,
+    "partidosGanados": 0,
+    "partidosEmpatados": 0,
+    "partidosPerdidos": 0,
+    "diferenciaDeGoles": 0,
+    "puntos": 0
+  },
+  {
+    "id": 3,
+    "equipo": {
+      "id": 3,
+      "nombre": "Racing",
+      "imagen": "aa"
+    },
+    "partidosJugados": 0,
+    "partidosGanados": 0,
+    "partidosEmpatados": 0,
+    "partidosPerdidos": 0,
+    "diferenciaDeGoles": 0,
+    "puntos": 0
+  },
+  {
+    "id": 4,
+    "equipo": {
+      "id": 4,
+      "nombre": "Boca",
+      "imagen": "aa"
+    },
+    "partidosJugados": 0,
+    "partidosGanados": 0,
+    "partidosEmpatados": 0,
+    "partidosPerdidos": 0,
+    "diferenciaDeGoles": 0,
+    "puntos": 0
+  }
+]

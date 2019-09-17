@@ -1,0 +1,49 @@
+<div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">EQUIPO</th>
+                <th scope="col">PUNTOS</th>
+                <th scope="col">P/J</th>
+                <th scope="col">P/G</th>
+                <th scope="col">P/P</th>
+                <th scope="col">P/E</th>
+                <th scope="col">D/G</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let team of table">
+            <tr>
+                <th scope="row">{{team.id}}</th>
+                <td>{{team.equipo.nombre}}</td>
+                <td>{{team.puntos}}</td>
+                <td>{{team.partidosJugados}}</td>
+                <td>{{team.partidosGanados}}</td>
+                <td>{{team.partidosPerdidos}}</td>
+                <td>{{team.partidosEmpatados}}</td>
+                <td>{{team.diferenciaDeGoles}}</td>
+            </tr>
+            
+
+        </tbody>
+    </table>
+</div>
+
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ALEJO"
+        data-whatever="@mdo">{{team.equipo.nombre}}</button>
+    <div class="modal fade" id="ALEJO" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <div class="card-header">{{team.equipo.nombre}}</div>
+                <div class="card-body">
+                    <p class="card-text">Partidos jugados: {{team.partidosJugados}}</p>
+                    <p class="card-text">Partidos perdidos: {{team.partidosPerdidos}}</p>
+                    <p class="card-text">Partidos empatados: {{team.partidosEmpatados}}</p>
+                    <p class="card-text">Partidos ganados: {{team.partidosGanados}}</p>
+                    <p class="card-text">Diferencia de goles: {{team.diferenciaDeGoles}}</p>
+                    <p class="card-text">Puntos: {{team.puntos}}</p>
+                </div>
+            </div>
+        </div>
+    </div>-->
